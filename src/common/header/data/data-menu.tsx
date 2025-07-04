@@ -139,5 +139,5 @@ const Menu : mainMenu[] = [
 ]
 
 export default Menu;
-export {mainMenu};
+export type {mainMenu};
 
