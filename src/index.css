@@ -1,13 +1,16 @@
 
 
 @import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-
+@import "./styles/font.css";
 
 
 
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  /* font-family: "Roboto", sans-serif; */
   line-height: 1.5;
   font-weight: 400;
 
