@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCaretDown } from '@fortawesome/free-solid-svg-icons';
 import { ClipLoader } from "react-spinners";
 import HeaderMenu from './header-menu';
-import { mainMenu } from '../data/data-menu';
+import type  { mainMenu } from '../data/data-menu';
 
 
 const HeaderCategory: React.FC = () => {
@@ -25,7 +25,7 @@ function handleIndex():void {
 },[index])
 
 const handleClick = (
-    e: React.MouseEvent<HTMLDivElement> 
+    _event: React.MouseEvent<HTMLDivElement> 
   , index: number , openform: boolean) => {
         setIndex(index);
         setOpenForm(openform);

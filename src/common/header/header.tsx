@@ -1,4 +1,4 @@
-import React from 'react';
+
 import HeaderInfor from './components/header-infor';
 import HeaderCategory from './components/header-categry';
 function Header() {
